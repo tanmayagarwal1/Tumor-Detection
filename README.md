@@ -41,28 +41,38 @@ As we observe the heat map of co-relations, the values will range from between -
 ## Models 
 The KNN has been implemented using the KNeighborsClassifier from the sklearn.neighbors library. We have also used the Euclidian distance function as cited in the previous sections
 ```python
-
+from sklearn.neighbors import KNeighborsClassifier
+knn = KNeighborsClassifier(n_neighbors=40, metric='euclidean')
+knn.fit(scaled_X_train, y_train)
 ```
 
 The logistic regression is implemented using the LogisticRegression class of the sklearn.linear-model model. In this we will be fitting our training and testing data
 ```python
-
+from sklearn.linear_model import LogisticRegression
+lm=LogisticRegression()
+lm.fit(X_train,y_train)
 ```
 
 The Decision Tree is implemented using the DecisionTreeClassifier class from the sklearn-tree model. The training and testing data is fit to it as follows
 ```python
-
+from sklearn.tree import DecisionTreeClassifier
+dtree = DecisionTreeClassifier()
+dtree.fit(X_train,y_train)
 ```
 
 The random forest model is implemented using the RandomForestClassifier from the sklearn-ensemble model. The training and testing data is then fit to it as follows
 ```python
-pass 
+from sklearn.ensemble import RandomForestClassifier
+rfc = RandomForestClassifier(n_estimators=200)
+rfc.fit(X_train,y_train)
 ```
 
 
 The support vector machines are implemented using the SVC class of the sklearn-svm model.
 ```python
-pass 
+from sklearn.svm import SVC
+svm=SVC()
+svm.fit(X_train,y_train)
 ```
 
 ## Accuracy Validation 

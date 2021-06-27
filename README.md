@@ -1,4 +1,4 @@
-# Tumour-Detection
+# Tumor-Detection
 Past years have experienced increasing mortality rate due to lung cancer and thus it becomes crucial to predict whether the tumor has transformed to cancer or not, if the prediction is made at an early stage then many lives can be saved and accurate prediction also can help the doctors start their treatment.
 
 
@@ -8,9 +8,9 @@ Tumors are of two types benign and malignant where benign (non-cancerous) is the
 in other part of body this spreading of infection is called metastasis.
 
 
-To diagnose lung cancer various techniques are used like chest X-Ray, Computed Tomography (CT scan), MRI (magnetic resonance imaging) through which doctor can decide the location of tumour based on that treatments are given. Now it is important that the disease diagnose should be done in early stage so that many life’s can be saved.
+To diagnose lung cancer various techniques are used like chest X-Ray, Computed Tomography (CT scan), MRI (magnetic resonance imaging) through which doctor can decide the location of tumor based on that treatments are given. Now it is important that the disease diagnose should be done in early stage so that many life’s can be saved.
 
-This is where our project comes in clutch. By passing the data ob- tained from the computer tomography scan they can determine before hand whether the patient has malignant or benign tumour or not. This can help save a lot of lives and also prevent cases from becoming severe
+This is where our project comes in clutch. By passing the data ob- tained from the computer tomography scan they can determine before hand whether the patient has malignant or benign tumor or not. This can help save a lot of lives and also prevent cases from becoming severe
 
 ## Aim and Motivation 
 The primary objective of our project is to build a machine learning model which can classify whether there are traces of malignant or benign cancer given the parameters and values which can be calculated from a computer tomography scan. We ensure that the model uses robust machine learning algorithms as to be able to classify the given data with the highest precision
@@ -20,7 +20,7 @@ in other part of body this spreading of infection is called metastasis.
 
 There is various type of cancer like Lung cancer, leukemia, and colon cancer etc. The incidence of lung cancer has significantly increased from the early 19th century. There is various cause of lung cancer like smoking, exposure to radon gas, secondhand smoking, and exposure to asbestos etc. Lung cancer is of two type small cell lung cancer (SCLC) and non small cell lung cancer (NSCLC). Non-small cell lung cancer is more common than SCLC and it generally grows and spreads more slowly.
 
-To diagnose lung cancer various techniques are used like chest X-Ray, Computed Tomography (CT scan), MRI (magnetic resonance imaging) through which doctor can decide the location of tumour based on that treatments are given. Now it is important that the disease diagnose should be done in early stage so that many life’s can be saved.
+To diagnose lung cancer various techniques are used like chest X-Ray, Computed Tomography (CT scan), MRI (magnetic resonance imaging) through which doctor can decide the location of tumor based on that treatments are given. Now it is important that the disease diagnose should be done in early stage so that many life’s can be saved.
 
 ## Technology Used 
 1. Python v3.8 
